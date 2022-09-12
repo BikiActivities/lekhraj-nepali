@@ -1,0 +1,75 @@
+body{
+	margin:0;
+}
+header{
+	background-color: pink;
+	padding:20px;
+	text-align: center;
+	color: white;
+	font-family: "comic sans ms";
+}
+/*this is tabs home,  gallery, contact*/
+nav{ 
+	overflow:hidden;
+	background-color: skyblue;
+}
+/*this is style of tabs home, gallery, contact*/
+nav a{
+	float: left;
+	color: black;
+	padding: 14px 12px 11px 10px;
+	text-decoration: none;
+}
+/*this is mouse touch alert*/
+nav a:hover{
+	background-color: black;
+	color: white;
+}
+/*These are body texts*/
+.column{
+	float: left;
+width: 20%;
+
+}
+.column.first{
+	width:20%;
+	background-color: orange;
+}
+.column.side{
+	width: 20%;
+	background-color:green;
+}
+.column.middle{
+	width:30%;
+	background-color: yellow;
+
+.column.last{
+	width:20%;
+	background-color:red;
+
+}
+/*THIS is footer*/
+footer{
+	clear: both;
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+	color:black;
+}
+@media screen and (max-width: 612px){
+	.column.side,.column.middle{width: 100%}
+}
+div.gallary{
+	margin:5px;
+	border:4px solid black;
+	float:left;
+	width:180px;
+}
+div.gallary:hover{
+	border-color: red;
+}
+div.gallary img{
+	width: 100%;
+	height:auto;
+}
+
